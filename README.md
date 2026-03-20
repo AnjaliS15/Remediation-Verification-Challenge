@@ -7,13 +7,13 @@ The vulnerability in scope is a SQL Injection on a login endpoint (POST /api/v1/
 You need two terminals open in the same project directory.
 
 Step 1 — Seed the database (run once):
-bashpython3 seed_db.py
+python3 seed_db.py
 Step 2 — Start the vulnerable server (Terminal 1):
-bashpython3 server.py
+python3 server.py
 Step 3 — Run the attack script (Terminal 2):
-bashpython3 attack.py
+python3 attack.py
 To point the attack script at a different host:
-bashpython3 attack.py --host http://localhost:5000
+python3 attack.py --host http://localhost:5000
 
 **Script Descriptions**
 
